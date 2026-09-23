@@ -68,10 +68,11 @@ These checks run automatically in `tests/test_consistency.py`.
 
 ## Run it
 
-```bash
-pip install -r requirements.txt
-pytest -q                                   # consistency checks
-jupyter notebook notebooks/capacity_analysis.ipynb
+```
+cd capacity-calculation-n1
+python -m pip install -r requirements.txt
+python -m pytest -q
+python -m jupyter notebook notebooks/capacity_analysis.ipynb
 ```
 
 ## Structure
